@@ -1,15 +1,15 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'turbo_blank/version'
+require 'duration/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "turbo_blank"
-  spec.version       = TurboBlank::VERSION
+  spec.name          = "duration"
+  spec.version       = Duration::VERSION
   spec.authors       = ["Godfrey Chan"]
   spec.email         = ["godfreykfc@gmail.com"]
 
-  spec.summary       = "Rust fast_blank"
+  spec.summary       = "Rust ActiveSupport::Duration"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
